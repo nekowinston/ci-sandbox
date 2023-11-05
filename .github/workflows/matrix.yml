@@ -8,7 +8,7 @@ jobs:
         os:
         - ubuntu-latest
         - macos-latest 
-        - macos-latest-xlarge
+        - labels: ARM64
     runs-on: ${{ matrix.os }}
 
     steps:
